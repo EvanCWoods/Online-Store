@@ -1,3 +1,27 @@
 #home-container {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#shop-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+}
+#go-to-shop {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding: 1% 2% 1% 2%;
+}
+#articles-container {
+    width: 100%;
+}
+.article {
+    width: 70%;
+    padding: 0 3% 0 3%;
+    margin: 0 12% 0 12%;
+    border: 1px solid grey;
+    background: rgb(240, 239, 239);
 }
