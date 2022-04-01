@@ -8,4 +8,12 @@ router.get("/", (req, res) => {
     }
 });
 
+router.get("/shop", (req, res) => {
+    try {
+        res.render("shop");
+    } catch (err) {
+        console.log(err);
+    }
+})
+
 module.exports = router;
